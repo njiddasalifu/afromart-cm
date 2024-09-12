@@ -33,7 +33,7 @@ public class CustomerController {
         return ResponseEntity.ok(customerService.findAllCustomers());
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/exists/{id}")
     public ResponseEntity<Boolean> existById(@PathVariable("id") String id){
         return ResponseEntity.ok(customerService.existsById(id));
     }
