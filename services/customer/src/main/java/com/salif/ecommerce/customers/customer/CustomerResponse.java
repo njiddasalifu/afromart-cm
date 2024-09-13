@@ -1,7 +1,4 @@
-package com.salif.ecommerce.customer;
-
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotNull;
+package com.salif.ecommerce.customers.customer;
 
 public record CustomerResponse(
         String id,

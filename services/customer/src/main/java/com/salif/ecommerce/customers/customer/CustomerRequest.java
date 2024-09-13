@@ -1,4 +1,4 @@
-package com.salif.ecommerce.customer;
+package com.salif.ecommerce.customers.customer;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotNull;

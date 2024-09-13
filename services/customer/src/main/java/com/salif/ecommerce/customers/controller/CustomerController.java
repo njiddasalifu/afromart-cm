@@ -1,8 +1,8 @@
-package com.salif.ecommerce.controller;
+package com.salif.ecommerce.customers.controller;
 
-import com.salif.ecommerce.customer.CustomerRequest;
-import com.salif.ecommerce.customer.CustomerResponse;
-import com.salif.ecommerce.service.CustomerService;
+import com.salif.ecommerce.customers.customer.CustomerRequest;
+import com.salif.ecommerce.customers.customer.CustomerResponse;
+import com.salif.ecommerce.customers.service.CustomerService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

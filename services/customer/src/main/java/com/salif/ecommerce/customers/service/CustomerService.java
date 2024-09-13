@@ -1,11 +1,11 @@
-package com.salif.ecommerce.service;
+package com.salif.ecommerce.customers.service;
 
-import com.salif.ecommerce.customer.Customer;
-import com.salif.ecommerce.customer.CustomerRequest;
-import com.salif.ecommerce.customer.CustomerResponse;
-import com.salif.ecommerce.exceptions.CustomerNotFoundException;
-import com.salif.ecommerce.mapper.CustomerMapper;
-import com.salif.ecommerce.repository.CustomerRepository;
+import com.salif.ecommerce.customers.customer.Customer;
+import com.salif.ecommerce.customers.customer.CustomerRequest;
+import com.salif.ecommerce.customers.customer.CustomerResponse;
+import com.salif.ecommerce.customers.exceptions.CustomerNotFoundException;
+import com.salif.ecommerce.customers.mapper.CustomerMapper;
+import com.salif.ecommerce.customers.repository.CustomerRepository;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;

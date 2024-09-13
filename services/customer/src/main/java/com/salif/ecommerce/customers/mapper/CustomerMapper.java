@@ -1,8 +1,8 @@
-package com.salif.ecommerce.mapper;
+package com.salif.ecommerce.customers.mapper;
 
-import com.salif.ecommerce.customer.Customer;
-import com.salif.ecommerce.customer.CustomerRequest;
-import com.salif.ecommerce.customer.CustomerResponse;
+import com.salif.ecommerce.customers.customer.Customer;
+import com.salif.ecommerce.customers.customer.CustomerRequest;
+import com.salif.ecommerce.customers.customer.CustomerResponse;
 import org.springframework.stereotype.Service;
 
 @Service

@@ -5,14 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68cdc79d-20af-4cee-981e-1b1c254f1638" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/config-server/src/main/resources/configurations/product-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customers/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/salif/ecommerce/products/category/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/salif/ecommerce/products/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/salif/ecommerce/products/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/salif/ecommerce/products/product/ProductPurchaseResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/salif/ecommerce/products/product/ProductPurchaserequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/salif/ecommerce/products/product/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/salif/ecommerce/products/product/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/java/com/salif/ecommerce/products/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/product/src/main/resources/db/migration/V1__init_database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customers/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customers/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customer/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customers/customer/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customers/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customer/CustomerRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customers/customer/CustomerRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customer/CustomerResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customers/customer/CustomerResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/exceptions/CustomerNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customers/exceptions/CustomerNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/exceptions/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customers/exceptions/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customers/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customers/mapper/CustomerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customers/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/main/java/com/salif/ecommerce/customers/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/customer/src/test/java/com/salif/ecommerce/CustomerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/customer/src/test/java/com/salif/ecommerce/customers/CustomerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/main/java/com/salif/ecommerce/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/main/java/com/salif/ecommerce/products/ProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/product/src/test/java/com/salif/ecommerce/ProductApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/product/src/test/java/com/salif/ecommerce/customers/ProductApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +50,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/services/product/src/main/resources/db/migration/V1__init_database.sql" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -52,7 +75,7 @@
     "Application.ConfigServerApplication.executor": "Debug",
     "Application.CustomerApplication.executor": "Debug",
     "Application.DiscoveryApplication.executor": "Debug",
-    "Application.ProductApplication.executor": "Debug",
+    "Application.ProductApplication.executor": "Run",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -65,11 +88,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.salif.ecommerce.exceptions" />
-      <recent name="com.salif.ecommerce.customer" />
-      <recent name="com.salif.ecommerce.mapper" />
-      <recent name="com.salif.ecommerce.repository" />
+      <recent name="com.salif.ecommerce.customers.products.product" />
+      <recent name="com.salif.ecommerce.products.service" />
       <recent name="com.salif.ecommerce.service" />
+      <recent name="com.salif.ecommerce.product" />
+      <recent name="com.salif.ecommerce.category" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/services" />
@@ -120,7 +143,7 @@
       <module name="customer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.salif.ecommerce.*" />
+          <option name="PATTERN" value="com.salif.ecommerce.products.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +165,11 @@
       </method>
     </configuration>
     <configuration name="ProductApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.salif.ecommerce.ProductApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.salif.ecommerce.products.ProductApplication" />
       <module name="product" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.salif.ecommerce.*" />
+          <option name="PATTERN" value="com.salif.ecommerce.products.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,9 +180,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ProductApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.CustomerApplication" />
         <item itemvalue="Application.DiscoveryApplication" />
-        <item itemvalue="Application.ConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>

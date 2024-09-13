@@ -1,8 +1,8 @@
-package com.salif.ecommerce.handler;
+package com.salif.ecommerce.customers.handler;
 
 
-import com.salif.ecommerce.exceptions.CustomerNotFoundException;
-import com.salif.ecommerce.exceptions.ErrorResponse;
+import com.salif.ecommerce.customers.exceptions.ErrorResponse;
+import com.salif.ecommerce.customers.exceptions.CustomerNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

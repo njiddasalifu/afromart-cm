@@ -1,4 +1,4 @@
-package com.salif.ecommerce;
+package com.salif.ecommerce.customers;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

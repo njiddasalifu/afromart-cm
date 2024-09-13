@@ -1,4 +1,4 @@
-package com.salif.ecommerce.exceptions;
+package com.salif.ecommerce.customers.exceptions;
 
 import java.util.Map;
 
